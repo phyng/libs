@@ -1,11 +1,12 @@
 {
   "name": "libs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Packages of tools",
   "main": "index.js",
   "scripts": {
     "test": "python -m unittest discover -s libs/ -v",
-    "upload": "rm dist/* && python3 setup.py sdist bdist_wheel && twine upload dist/*"
+    "upload": "rm dist/* && python3 setup.py sdist bdist_wheel && twine upload dist/*",
+    "poetry_publish": "poetry build && poetry publish"
   },
   "repository": {
     "type": "git",
