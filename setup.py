@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="libs",
-    version="0.0.1",
+    version="0.0.2",
     author="phyng",
     author_email="phyngk@gmail.com",
     description="Packages of tools",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://liburl.com",
+    url="https://github.com/phyng/libs",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
