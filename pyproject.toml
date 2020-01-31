@@ -2,12 +2,21 @@
 name = "libs"
 version = "0.0.4"
 description = "Packages of tools"
+license = "MIT"
+readme = "README.md"
 authors = ["phyng <phyngk@gmail.com>"]
+homepage = "https://github.com/phyng/libs"
+repository = "https://github.com/phyng/libs"
+classifiers = [
+    "Operating System :: OS Independent",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
 
 [tool.poetry.dev-dependencies]
+twine = "^3.1.1"
+coverage = "^5.0.3"
 
 [build-system]
 requires = ["poetry>=0.12"]

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "python -m unittest discover -s libs/ -v",
+    "test_coverage": "coverage run --rcfile=./tox.ini -m unittest discover -s libs/ -v && coverage combine && coverage html -i",
     "upload": "rm dist/* && python3 setup.py sdist bdist_wheel && twine upload dist/*",
     "poetry_publish": "poetry build && poetry publish"
   },

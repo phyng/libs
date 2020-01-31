@@ -14,8 +14,8 @@ setuptools.setup(
     url="https://github.com/phyng/libs",
     packages=setuptools.find_packages(),
     classifiers=(
+        "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
     ),
 )
