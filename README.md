@@ -1,10 +1,14 @@
 
 # libs
 
+## test
+
+```bash
+npm test
+```
+
 ## build and upload
 
-```
-rm dist/*
-python3 setup.py sdist bdist_wheel
-twine upload dist/*
+```bash
+npm run upload
 ```
