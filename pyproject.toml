@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "libs"
-version = "0.0.2"
+version = "0.0.3"
 description = "Packages of tools"
 authors = ["phyng <phyngk@gmail.com>"]
 
