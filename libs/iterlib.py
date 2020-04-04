@@ -22,6 +22,8 @@ def uniqify(sequence, key=None) -> iter:
 
 def chunks(iterable, size=10):
     """ chunks
+
+    Split list into multiple fixed size chunks
     """
     it = iter(iterable)
     item = list(itertools.islice(it, size))
@@ -33,6 +35,6 @@ def chunks(iterable, size=10):
 def isplit(lst, count=10):
     """ isplit
 
-    split list into n list
+    Split list into n list
     """
     return (list(lst[i::count]) for i in range(count))

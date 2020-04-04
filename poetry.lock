@@ -411,6 +411,17 @@ test = ["pytest (<5.3.3)", "pytest-cov", "html5lib", "flake8 (>=3.5.0)", "flake8
 
 [[package]]
 category = "dev"
+description = "Read the Docs theme for Sphinx"
+name = "sphinx-rtd-theme"
+optional = false
+python-versions = "*"
+version = "0.4.3"
+
+[package.dependencies]
+sphinx = "*"
+
+[[package]]
+category = "dev"
 description = "sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books"
 name = "sphinxcontrib-applehelp"
 optional = false
@@ -547,7 +558,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "4cec90e06a5184f3b2ea49cef4de0a99817c19b87cdce2ccfee02aff3e6b9d5d"
+content-hash = "796075d4572313e1a8b65d3096f1ea7aa00184a4ca47ee00ccc6ae857f56762d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -792,6 +803,10 @@ snowballstemmer = [
 sphinx = [
     {file = "Sphinx-2.4.4-py3-none-any.whl", hash = "sha256:fc312670b56cb54920d6cc2ced455a22a547910de10b3142276495ced49231cb"},
     {file = "Sphinx-2.4.4.tar.gz", hash = "sha256:b4c750d546ab6d7e05bdff6ac24db8ae3e8b8253a3569b754e445110a0a12b66"},
+]
+sphinx-rtd-theme = [
+    {file = "sphinx_rtd_theme-0.4.3-py2.py3-none-any.whl", hash = "sha256:00cf895504a7895ee433807c62094cf1e95f065843bf3acd17037c3e9a2becd4"},
+    {file = "sphinx_rtd_theme-0.4.3.tar.gz", hash = "sha256:728607e34d60456d736cc7991fd236afb828b21b82f956c5ea75f94c8414040a"},
 ]
 sphinxcontrib-applehelp = [
     {file = "sphinxcontrib-applehelp-1.0.2.tar.gz", hash = "sha256:a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58"},
