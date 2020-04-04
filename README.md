@@ -1,6 +1,8 @@
 
 # libs
 
+![ ](https://github.com/phyng/libs/workflows/Python%20package/badge.svg)
+
 ## install
 
 ```bash
