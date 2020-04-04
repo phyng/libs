@@ -1,12 +1,18 @@
 
 # libs
 
-![ ](https://github.com/phyng/libs/workflows/Python%20package/badge.svg)
+Some useful library to extend Python Standard Library
+
+[![Github](https://github.com/phyng/libs/workflows/Python%20package/badge.svg)](https://github.com/phyng/libs/actions) [![Pypi](https://img.shields.io/pypi/v/libs.svg?style=flat&label=PyPI)](https://pypi.org/project/libs/)
 
 ## install
 
 ```bash
+# use pip
 pip install libs
+
+# or use poetry
+poetry add libs
 ```
 
 ## test
@@ -14,3 +20,9 @@ pip install libs
 ```bash
 npm test
 ```
+
+## libs.iterlib
+
+- uniqify
+- chunks
+- isplit
