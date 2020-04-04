@@ -35,6 +35,7 @@ jobs:
         run: |
           source $HOME/.poetry/env
           poetry run make html
+          touch build/html/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
