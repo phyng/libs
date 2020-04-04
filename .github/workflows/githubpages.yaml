@@ -34,7 +34,7 @@ jobs:
       - name: Sphinx build
         run: |
           source $HOME/.poetry/env
-          make html
+          poetry run make html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
