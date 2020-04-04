@@ -18,6 +18,13 @@ libs
    :members:
 
 
+iolib
+===========
+
+.. automodule:: libs.iolib.file
+   :members:
+
+
 Indices and tables
 ==================
 
