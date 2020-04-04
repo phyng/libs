@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="libs",
-    version="0.0.6",
+    version="0.0.7",
     author="phyng",
     author_email="phyngk@gmail.com",
     description="Packages of tools",
