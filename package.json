@@ -1,6 +1,6 @@
 {
   "name": "libs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Packages of tools",
   "main": "index.js",
   "scripts": {
