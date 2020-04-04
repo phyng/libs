@@ -3,7 +3,11 @@
 
 Some useful library to extend Python Standard Library
 
-[![Github](https://github.com/phyng/libs/workflows/Python%20package/badge.svg)](https://github.com/phyng/libs/actions) [![Pypi](https://img.shields.io/pypi/v/libs.svg?style=flat&label=PyPI)](https://pypi.org/project/libs/)
+[![Github](https://github.com/phyng/libs/workflows/test/badge.svg)](https://github.com/phyng/libs/actions) [![Pypi](https://img.shields.io/pypi/v/libs.svg?style=flat&label=PyPI)](https://pypi.org/project/libs/)
+
+## documentation
+
+https://phyng.com/libs/
 
 ## install
 
