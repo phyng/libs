@@ -1,7 +1,7 @@
 
 # libs
 
-Some useful library to extend Python Standard Library
+Some library to extend Python Standard Library
 
 [![Github](https://github.com/phyng/libs/workflows/test/badge.svg)](https://github.com/phyng/libs/actions) [![Pypi](https://img.shields.io/pypi/v/libs.svg?style=flat&label=PyPI)](https://pypi.org/project/libs/)
 
@@ -23,10 +23,5 @@ poetry add libs
 
 ```bash
 npm test
+npm test_coverage
 ```
-
-## libs.iterlib
-
-- uniqify
-- chunks
-- isplit
