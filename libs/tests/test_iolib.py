@@ -4,7 +4,8 @@ from __future__ import unicode_literals, absolute_import, print_function, divisi
 
 import os
 from unittest import TestCase
-from iolib.file import create_temp_dir, remove_temp_dir, write_file, read_file
+
+from libs.iolib.file import create_temp_dir, remove_temp_dir, write_file, read_file
 
 
 class IolibFileTest(TestCase):
