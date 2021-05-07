@@ -11,7 +11,7 @@ Welcome to libs's documentation!
    :caption: Contents:
 
 
-libs
+iterlib
 ========
 
 .. automodule:: libs.iterlib
@@ -22,6 +22,13 @@ iolib
 ===========
 
 .. automodule:: libs.iolib.file
+   :members:
+
+
+ndjson
+===========
+
+.. automodule:: libs.ndjson
    :members:
 
 
