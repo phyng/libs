@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "libs"
-version = "0.0.9"
+version = "0.0.10"
 description = "Packages of tools"
 license = "MIT"
 readme = "README.md"
